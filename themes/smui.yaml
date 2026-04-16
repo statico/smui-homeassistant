@@ -82,6 +82,117 @@ SMUI:
     :host {
       font-family: 'JetBrains Mono', monospace !important;
     }
+  card-mod-view: |
+    ha-panel-lovelace {
+      font-family: 'JetBrains Mono', monospace !important;
+    }
+
+  # ── Dropdown Menus, Selects, Lists (MD3) ──────────────────────
+  # Targets md-item, md-menu, ha-md-select, ha-select, ha-list etc.
+  card-mod-more-info-yaml: |
+    .: |
+      /* MD3 menu container */
+      md-menu, ha-md-menu {
+        --md-menu-container-color: var(--card-background-color) !important;
+        --md-menu-container-shape: 0px !important;
+        --md-menu-container-shadow-color: transparent !important;
+        font-family: 'JetBrains Mono', monospace !important;
+      }
+      /* MD3 menu items */
+      md-menu-item, md-item, ha-md-menu-item {
+        --md-menu-item-container-color: var(--card-background-color) !important;
+        --md-menu-item-label-text-font: 'JetBrains Mono', monospace !important;
+        --md-menu-item-label-text-size: 13px !important;
+        --md-menu-item-top-space: 4px !important;
+        --md-menu-item-bottom-space: 4px !important;
+        --md-menu-item-one-line-container-height: 36px !important;
+        --md-menu-item-label-text-color: var(--primary-text-color) !important;
+        --md-ripple-hover-color: var(--primary-color) !important;
+        --md-ripple-hover-opacity: 0.1 !important;
+        font-family: 'JetBrains Mono', monospace !important;
+        font-size: 13px !important;
+        border-radius: 0px !important;
+      }
+      /* MD3 select */
+      ha-md-select, md-filled-select, md-outlined-select {
+        --md-filled-select-text-field-container-color: var(--secondary-background-color) !important;
+        --md-filled-select-text-field-container-shape: 0px !important;
+        --md-filled-select-text-field-input-text-font: 'JetBrains Mono', monospace !important;
+        --md-filled-select-text-field-input-text-size: 13px !important;
+        --md-filled-select-text-field-label-text-font: 'JetBrains Mono', monospace !important;
+        --md-outlined-select-text-field-container-shape: 0px !important;
+        --md-outlined-select-text-field-input-text-font: 'JetBrains Mono', monospace !important;
+        --md-sys-color-primary: var(--primary-color) !important;
+        font-family: 'JetBrains Mono', monospace !important;
+        border-radius: 0px !important;
+      }
+      /* Legacy selects */
+      ha-select {
+        --mdc-shape-small: 0px !important;
+        --mdc-select-fill-color: var(--secondary-background-color) !important;
+        --mdc-select-ink-color: var(--primary-text-color) !important;
+        --mdc-select-label-ink-color: var(--secondary-text-color) !important;
+        --mdc-select-idle-line-color: var(--divider-color) !important;
+        --mdc-select-dropdown-icon-color: var(--secondary-text-color) !important;
+        --mdc-select-hover-line-color: var(--outline-hover-color) !important;
+        font-family: 'JetBrains Mono', monospace !important;
+      }
+      /* MDC list items */
+      mwc-list-item, ha-list-item {
+        --mdc-typography-body2-font-family: 'JetBrains Mono', monospace !important;
+        --mdc-list-side-padding: 12px !important;
+        --mdc-list-item-meta-size: 13px !important;
+        font-family: 'JetBrains Mono', monospace !important;
+        font-size: 13px !important;
+        height: 40px !important;
+      }
+      /* MD3 focus ring -- square, not rounded */
+      md-focus-ring {
+        --md-focus-ring-shape: 0px !important;
+      }
+      /* MD3 ripple */
+      ha-ripple, md-ripple {
+        --md-ripple-hover-color: var(--primary-color) !important;
+        --md-ripple-pressed-color: var(--primary-color) !important;
+      }
+  card-mod-root-yaml: |
+    .: |
+      /* MD3 menus in toolbar/header area */
+      md-menu, ha-md-menu {
+        --md-menu-container-color: var(--card-background-color) !important;
+        --md-menu-container-shape: 0px !important;
+        --md-menu-container-shadow-color: transparent !important;
+      }
+      md-menu-item, md-item, ha-md-menu-item {
+        --md-menu-item-container-color: var(--card-background-color) !important;
+        --md-menu-item-label-text-font: 'JetBrains Mono', monospace !important;
+        --md-menu-item-label-text-size: 13px !important;
+        --md-menu-item-top-space: 4px !important;
+        --md-menu-item-bottom-space: 4px !important;
+        --md-menu-item-one-line-container-height: 36px !important;
+        --md-menu-item-label-text-color: var(--primary-text-color) !important;
+        font-family: 'JetBrains Mono', monospace !important;
+        font-size: 13px !important;
+        border-radius: 0px !important;
+      }
+      ha-md-select, md-filled-select, md-outlined-select {
+        --md-filled-select-text-field-container-shape: 0px !important;
+        --md-outlined-select-text-field-container-shape: 0px !important;
+        font-family: 'JetBrains Mono', monospace !important;
+        border-radius: 0px !important;
+      }
+      ha-select {
+        --mdc-shape-small: 0px !important;
+        font-family: 'JetBrains Mono', monospace !important;
+      }
+      mwc-list-item, ha-list-item {
+        font-family: 'JetBrains Mono', monospace !important;
+        font-size: 13px !important;
+        height: 40px !important;
+      }
+      md-focus-ring {
+        --md-focus-ring-shape: 0px !important;
+      }
 
   modes:
     dark:
