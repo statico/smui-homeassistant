@@ -5,6 +5,84 @@
 ##
 
 SMUI:
+  # ── Typography (JetBrains Mono) ───────────────────────────────
+  # Requires adding the Google Font as a Lovelace resource:
+  #   URL:  https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap
+  #   Type: Stylesheet
+  primary-font-family: "'JetBrains Mono', monospace"
+  ha-card-header-font-family: "var(--primary-font-family)"
+  ha-font-family-body: "var(--primary-font-family)"
+  ha-font-family-heading: "var(--primary-font-family)"
+  ha-font-family-longform: "var(--primary-font-family)"
+  mdc-typography-font-family: "var(--primary-font-family)"
+  mdc-typography-button-font-family: "var(--primary-font-family)"
+  mdc-typography-headline6-font-family: "var(--primary-font-family)"
+  mdc-typography-body1-font-family: "var(--primary-font-family)"
+  mdc-typography-subtitle1-font-family: "var(--primary-font-family)"
+  md-ref-typeface-plain: "var(--primary-font-family)"
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--primary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--primary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--primary-font-family)"
+
+  # ── Compact Layout (card-mod required) ────────────────────────
+  card-mod-theme: SMUI
+  card-mod-card: |
+    ha-card {
+      font-family: 'JetBrains Mono', monospace !important;
+      font-size: 13px;
+    }
+    ha-card .card-header {
+      padding: 8px 12px !important;
+      font-size: 14px !important;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    ha-card .card-content {
+      padding: 8px 12px !important;
+    }
+    ha-card .card-actions {
+      padding: 4px 8px !important;
+    }
+  card-mod-root: |
+    ha-app-layout {
+      font-family: 'JetBrains Mono', monospace !important;
+    }
+    .header {
+      font-family: 'JetBrains Mono', monospace !important;
+      --header-height: 48px !important;
+    }
+    app-toolbar {
+      height: 48px !important;
+      font-size: 14px !important;
+    }
+  card-mod-sidebar: |
+    :host {
+      font-family: 'JetBrains Mono', monospace !important;
+    }
+    .menu .title {
+      font-size: 14px !important;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    paper-icon-item {
+      height: 40px !important;
+    }
+  card-mod-more-info: |
+    :host {
+      font-family: 'JetBrains Mono', monospace !important;
+    }
+    ha-dialog .content {
+      padding: 8px 16px !important;
+    }
+  card-mod-row: |
+    :host {
+      font-family: 'JetBrains Mono', monospace !important;
+    }
+
   modes:
     dark:
       # ── Core Colors ──────────────────────────────────────────────

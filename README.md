@@ -16,6 +16,8 @@ A terminal-aesthetic Home Assistant theme inspired by [SMUI](https://smui.static
 
 ## Features
 
+- **JetBrains Mono** throughout -- monospace everything, just like a real terminal
+- **Compact layout** -- tighter padding on cards, headers, sidebar, and dialogs
 - Full dark and light mode support
 - Nord color palette throughout
 - Sharp corners on all cards and elements (0px border radius)
@@ -23,6 +25,17 @@ A terminal-aesthetic Home Assistant theme inspired by [SMUI](https://smui.static
 - Complete coverage: cards, sidebar, header, inputs, switches, sliders, energy dashboard, climate, alarms, and more
 
 ## Installation
+
+### Prerequisites
+
+**JetBrains Mono font** -- Add the Google Font as a Lovelace dashboard resource:
+
+1. Go to **Settings** > **Dashboards** > three-dot menu (top right) > **Resources**
+2. Click **Add Resource**
+3. URL: `https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap`
+4. Type: **Stylesheet**
+
+**card-mod** (optional, recommended) -- For compact layout styling, install [card-mod](https://github.com/thomasloven/lovelace-card-mod) via HACS. Without card-mod, the theme still works but uses default HA padding.
 
 ### HACS (Recommended)
 
