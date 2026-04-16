@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="monospace">
+  <!-- Background -->
+  <rect width="900" height="500" fill="#1a1e24"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="200" height="500" fill="#21262e"/>
+  <rect x="199" y="0" width="1" height="500" fill="#3b4252"/>
+
+  <!-- Sidebar header -->
+  <text x="24" y="38" fill="#88c0d0" font-size="16" font-weight="bold" letter-spacing="2">SMUI</text>
+  <text x="24" y="56" fill="#4c566a" font-size="10" letter-spacing="1">HOME ASSISTANT</text>
+  <rect x="0" y="68" width="200" height="1" fill="#3b4252"/>
+
+  <!-- Sidebar items -->
+  <rect x="0" y="80" width="200" height="32" fill="rgba(136,192,208,0.1)"/>
+  <text x="24" y="101" fill="#88c0d0" font-size="12" letter-spacing="1">OVERVIEW</text>
+  <text x="24" y="133" fill="#8e99a8" font-size="12" letter-spacing="1">ENERGY</text>
+  <text x="24" y="165" fill="#8e99a8" font-size="12" letter-spacing="1">AUTOMATIONS</text>
+  <text x="24" y="197" fill="#8e99a8" font-size="12" letter-spacing="1">SETTINGS</text>
+
+  <!-- Main content area -->
+  <!-- Card 1: Temperature -->
+  <rect x="220" y="20" width="210" height="120" fill="#21262e" stroke="#3b4252" stroke-width="1"/>
+  <text x="236" y="48" fill="#8e99a8" font-size="10" letter-spacing="1.5">CLIMATE</text>
+  <text x="236" y="88" fill="#d8dee9" font-size="32">21.5°</text>
+  <text x="236" y="112" fill="#a3be8c" font-size="11" letter-spacing="1">NOMINAL</text>
+
+  <!-- Card 2: Lights -->
+  <rect x="446" y="20" width="210" height="120" fill="#21262e" stroke="#3b4252" stroke-width="1"/>
+  <text x="462" y="48" fill="#8e99a8" font-size="10" letter-spacing="1.5">LIGHTS</text>
+  <text x="462" y="88" fill="#d8dee9" font-size="32">4/12</text>
+  <text x="462" y="112" fill="#ebcb8b" font-size="11" letter-spacing="1">ACTIVE</text>
+
+  <!-- Card 3: Security -->
+  <rect x="672" y="20" width="210" height="120" fill="#21262e" stroke="#3b4252" stroke-width="1"/>
+  <text x="688" y="48" fill="#8e99a8" font-size="10" letter-spacing="1.5">SECURITY</text>
+  <text x="688" y="88" fill="#d8dee9" font-size="32">ARMED</text>
+  <text x="688" y="112" fill="#88c0d0" font-size="11" letter-spacing="1">ALL ZONES</text>
+
+  <!-- Card 4: Sensors list -->
+  <rect x="220" y="160" width="320" height="200" fill="#21262e" stroke="#3b4252" stroke-width="1"/>
+  <text x="236" y="188" fill="#8e99a8" font-size="10" letter-spacing="1.5">SENSOR STATUS</text>
+  <rect x="220" y="198" width="320" height="1" fill="#3b4252"/>
+
+  <circle cx="244" cy="222" r="4" fill="#a3be8c"/>
+  <text x="258" y="226" fill="#d8dee9" font-size="12">Front Door</text>
+  <text x="480" y="226" fill="#a3be8c" font-size="11" text-anchor="end">CLOSED</text>
+
+  <circle cx="244" cy="254" r="4" fill="#a3be8c"/>
+  <text x="258" y="258" fill="#d8dee9" font-size="12">Motion Sensor</text>
+  <text x="480" y="258" fill="#a3be8c" font-size="11" text-anchor="end">CLEAR</text>
+
+  <circle cx="244" cy="286" r="4" fill="#ebcb8b"/>
+  <text x="258" y="290" fill="#d8dee9" font-size="12">Humidity</text>
+  <text x="480" y="290" fill="#ebcb8b" font-size="11" text-anchor="end">68%</text>
+
+  <circle cx="244" cy="318" r="4" fill="#d4737c"/>
+  <text x="258" y="322" fill="#d8dee9" font-size="12">Smoke Detector</text>
+  <text x="480" y="322" fill="#d4737c" font-size="11" text-anchor="end">CHECK</text>
+
+  <circle cx="244" cy="350" r="4" fill="#b48ead"/>
+  <text x="258" y="354" fill="#d8dee9" font-size="12">Firmware</text>
+  <text x="480" y="354" fill="#b48ead" font-size="11" text-anchor="end">UPDATE</text>
+
+  <!-- Card 5: Energy -->
+  <rect x="556" y="160" width="326" height="200" fill="#21262e" stroke="#3b4252" stroke-width="1"/>
+  <text x="572" y="188" fill="#8e99a8" font-size="10" letter-spacing="1.5">ENERGY</text>
+  <rect x="556" y="198" width="326" height="1" fill="#3b4252"/>
+
+  <!-- Energy bar chart -->
+  <rect x="588" y="318" width="36" height="-80" fill="#88c0d0"/>
+  <rect x="640" y="318" width="36" height="-60" fill="#a3be8c"/>
+  <rect x="692" y="318" width="36" height="-100" fill="#ebcb8b"/>
+  <rect x="744" y="318" width="36" height="-45" fill="#b48ead"/>
+  <rect x="796" y="318" width="36" height="-70" fill="#5e81ac"/>
+
+  <text x="606" y="338" fill="#4c566a" font-size="9" text-anchor="middle">GRD</text>
+  <text x="658" y="338" fill="#4c566a" font-size="9" text-anchor="middle">RET</text>
+  <text x="710" y="338" fill="#4c566a" font-size="9" text-anchor="middle">SOL</text>
+  <text x="762" y="338" fill="#4c566a" font-size="9" text-anchor="middle">BAT</text>
+  <text x="814" y="338" fill="#4c566a" font-size="9" text-anchor="middle">WAT</text>
+
+  <!-- Aurora color swatches at bottom -->
+  <rect x="220" y="380" width="662" height="100" fill="#21262e" stroke="#3b4252" stroke-width="1"/>
+  <text x="236" y="408" fill="#8e99a8" font-size="10" letter-spacing="1.5">AURORA PALETTE</text>
+  <rect x="220" y="418" width="662" height="1" fill="#3b4252"/>
+
+  <rect x="240" y="434" width="108" height="28" fill="#a3be8c"/>
+  <text x="294" y="453" fill="#1a1e24" font-size="11" text-anchor="middle" letter-spacing="1">SUCCESS</text>
+
+  <rect x="364" y="434" width="108" height="28" fill="#ebcb8b"/>
+  <text x="418" y="453" fill="#1a1e24" font-size="11" text-anchor="middle" letter-spacing="1">WARNING</text>
+
+  <rect x="488" y="434" width="108" height="28" fill="#d08770"/>
+  <text x="542" y="453" fill="#1a1e24" font-size="11" text-anchor="middle" letter-spacing="1">ALERT</text>
+
+  <rect x="612" y="434" width="108" height="28" fill="#d4737c"/>
+  <text x="666" y="453" fill="#1a1e24" font-size="11" text-anchor="middle" letter-spacing="1">CRITICAL</text>
+
+  <rect x="736" y="434" width="108" height="28" fill="#b48ead"/>
+  <text x="790" y="453" fill="#1a1e24" font-size="11" text-anchor="middle" letter-spacing="1">INFO</text>
+</svg>

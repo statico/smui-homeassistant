@@ -2,8 +2,11 @@
 
 A terminal-aesthetic Home Assistant theme inspired by [SMUI](https://smui.statico.io/) (SpaceMolt UI). Built on the [Nord color palette](https://www.nordtheme.com/) with a starship bridge terminal aesthetic.
 
-![SMUI Dark Theme](images/dark.png)
-![SMUI Light Theme](images/light.png)
+### Dark Mode
+![SMUI Dark Theme](images/dark.svg)
+
+### Light Mode
+![SMUI Light Theme](images/light.svg)
 
 ## Design Philosophy
 
