@@ -33,19 +33,19 @@ SMUI:
   card-mod-card: |
     ha-card {
       font-family: 'JetBrains Mono', monospace !important;
-      font-size: 13px;
+      font-size: 11px;
     }
     ha-card .card-header {
-      padding: 8px 12px !important;
-      font-size: 14px !important;
+      padding: 6px 10px !important;
+      font-size: 12px !important;
       letter-spacing: 1.5px;
       text-transform: uppercase;
     }
     ha-card .card-content {
-      padding: 8px 12px !important;
+      padding: 6px 10px !important;
     }
     ha-card .card-actions {
-      padding: 4px 8px !important;
+      padding: 2px 6px !important;
     }
   card-mod-root: |
     ha-app-layout {
@@ -53,30 +53,30 @@ SMUI:
     }
     .header {
       font-family: 'JetBrains Mono', monospace !important;
-      --header-height: 48px !important;
+      --header-height: 46px !important;
     }
     app-toolbar {
-      height: 48px !important;
-      font-size: 14px !important;
+      height: 46px !important;
+      font-size: 12px !important;
     }
   card-mod-sidebar: |
     :host {
       font-family: 'JetBrains Mono', monospace !important;
     }
     .menu .title {
-      font-size: 14px !important;
+      font-size: 12px !important;
       letter-spacing: 1.5px;
       text-transform: uppercase;
     }
     paper-icon-item {
-      height: 40px !important;
+      height: 38px !important;
     }
   card-mod-more-info: |
     :host {
       font-family: 'JetBrains Mono', monospace !important;
     }
     ha-dialog .content {
-      padding: 8px 16px !important;
+      padding: 6px 14px !important;
     }
   card-mod-row: |
     :host {
@@ -102,15 +102,15 @@ SMUI:
       md-menu-item, md-item, ha-md-menu-item {
         --md-menu-item-container-color: var(--card-background-color) !important;
         --md-menu-item-label-text-font: 'JetBrains Mono', monospace !important;
-        --md-menu-item-label-text-size: 13px !important;
-        --md-menu-item-top-space: 4px !important;
-        --md-menu-item-bottom-space: 4px !important;
-        --md-menu-item-one-line-container-height: 36px !important;
+        --md-menu-item-label-text-size: 11px !important;
+        --md-menu-item-top-space: 2px !important;
+        --md-menu-item-bottom-space: 2px !important;
+        --md-menu-item-one-line-container-height: 34px !important;
         --md-menu-item-label-text-color: var(--primary-text-color) !important;
         --md-ripple-hover-color: var(--primary-color) !important;
         --md-ripple-hover-opacity: 0.1 !important;
         font-family: 'JetBrains Mono', monospace !important;
-        font-size: 13px !important;
+        font-size: 11px !important;
         border-radius: 0px !important;
       }
       /* MD3 select */
@@ -118,7 +118,7 @@ SMUI:
         --md-filled-select-text-field-container-color: var(--secondary-background-color) !important;
         --md-filled-select-text-field-container-shape: 0px !important;
         --md-filled-select-text-field-input-text-font: 'JetBrains Mono', monospace !important;
-        --md-filled-select-text-field-input-text-size: 13px !important;
+        --md-filled-select-text-field-input-text-size: 11px !important;
         --md-filled-select-text-field-label-text-font: 'JetBrains Mono', monospace !important;
         --md-outlined-select-text-field-container-shape: 0px !important;
         --md-outlined-select-text-field-input-text-font: 'JetBrains Mono', monospace !important;
@@ -140,11 +140,11 @@ SMUI:
       /* MDC list items */
       mwc-list-item, ha-list-item {
         --mdc-typography-body2-font-family: 'JetBrains Mono', monospace !important;
-        --mdc-list-side-padding: 12px !important;
-        --mdc-list-item-meta-size: 13px !important;
+        --mdc-list-side-padding: 10px !important;
+        --mdc-list-item-meta-size: 11px !important;
         font-family: 'JetBrains Mono', monospace !important;
-        font-size: 13px !important;
-        height: 40px !important;
+        font-size: 11px !important;
+        height: 38px !important;
       }
       /* MD3 focus ring -- square, not rounded */
       md-focus-ring {
@@ -166,13 +166,13 @@ SMUI:
       md-menu-item, md-item, ha-md-menu-item {
         --md-menu-item-container-color: var(--card-background-color) !important;
         --md-menu-item-label-text-font: 'JetBrains Mono', monospace !important;
-        --md-menu-item-label-text-size: 13px !important;
-        --md-menu-item-top-space: 4px !important;
-        --md-menu-item-bottom-space: 4px !important;
-        --md-menu-item-one-line-container-height: 36px !important;
+        --md-menu-item-label-text-size: 11px !important;
+        --md-menu-item-top-space: 2px !important;
+        --md-menu-item-bottom-space: 2px !important;
+        --md-menu-item-one-line-container-height: 34px !important;
         --md-menu-item-label-text-color: var(--primary-text-color) !important;
         font-family: 'JetBrains Mono', monospace !important;
-        font-size: 13px !important;
+        font-size: 11px !important;
         border-radius: 0px !important;
       }
       ha-md-select, md-filled-select, md-outlined-select {
@@ -187,8 +187,8 @@ SMUI:
       }
       mwc-list-item, ha-list-item {
         font-family: 'JetBrains Mono', monospace !important;
-        font-size: 13px !important;
-        height: 40px !important;
+        font-size: 11px !important;
+        height: 38px !important;
       }
       md-focus-ring {
         --md-focus-ring-shape: 0px !important;
@@ -234,7 +234,7 @@ SMUI:
       ha-card-border-radius: "0px"
       ha-card-border-width: "1px"
       ha-card-box-shadow: "none"
-      ha-card-header-font-size: "14px"
+      ha-card-header-font-size: "12px"
 
       # ── Dividers & Outlines ─────────────────────────────────────
       divider-color: "#3b4252"
@@ -465,7 +465,7 @@ SMUI:
       ha-card-border-radius: "0px"
       ha-card-border-width: "1px"
       ha-card-box-shadow: "none"
-      ha-card-header-font-size: "14px"
+      ha-card-header-font-size: "12px"
 
       # ── Dividers & Outlines ─────────────────────────────────────
       divider-color: "#d8dee9"
